@@ -3,6 +3,9 @@
 <head>
 	<title>Chatbot</title>
 	<link rel="stylesheet" href="chatbot.css">
+  	<link rel="stylesheet" href="animate.css">
+  	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  	<script src="chatbot.js"></script>
 </head>
 <body>
 
@@ -10,37 +13,39 @@
 
 <div class="main-chat">
 	<div class="chatbox">
-		<div class="bot-message container">
-			<p>Hi! I'm Rachelyn.</p>
-		</div>
-		<div class="bot-message container">
-			<p>Blah blah</p>
-		</div>
-		<div class="bot-message container">
-			<p>Bloop. Bleep.</p>
-		</div>
-		<div class="user-message container">
-			<p>Wow so cool pineapple starfish glowstick symphony magician coffee</p>
-		</div>
-		<div class="bot-message container">
-			<p>Yeah I know right.</p>
-		</div>
-		<div class="bot-message container">
-			<p>Potato</p>
-		</div>
-		<div class="bot-message container">
-			<p>Sparkles and rainbows and shiny things and friends and unicorns and happiness...</p>
-		</div>
-		<div class="user-message container">
-			<p>Hiyahhhhh!</p>
-		</div>
+	<ol>
+		<li class="message-li"><div class="bot-message container">Hi, I'm Rachelyn! :)</div></li>
+		<li class="message-li"><div class="bot-message container">I'm a second-year student studying Systems Design Engineering at the University of Waterloo.</div></li>
+		<li class="message-li"><div class="bot-message container">I alternate between study and co-op / work terms.</div></li>
+
+		<li class="message-li"><div class="user-message container">How's studying going?</div></li>
+		<li class="message-li"><div class="bot-message container">So far I've completed 2 school terms.</div></li>
+		<li class="message-li"><div class="bot-message container">I've had a couple amazing courses so far...</div></li>
+		<li class="message-li"><div class="bot-message container">Digital Systems (combinational logic and microcomputer interfacing),</div></li>
+		<li class="message-li"><div class="bot-message container">Graphics (3D CAD and technical drawings),</div></li>
+		<li class="message-li"><div class="bot-message container">...and last but not least, Human Factors in Design (human-machine environments, ergonomic design and information processing).</div></li>
+
+
+
+		<li class="message-li"><div class="user-message container">How's co-op going?</div></li>
+		<li class="message-li"><div class="bot-message container">Yeah I know right. Purple blue orange yellow green pink.</div></li>
+		<li class="message-li"><div class="bot-message container">Potato</div></li>
+		<li class="message-li"><div class="bot-message container">Sparkles and rainbows...</div></li>
+
+
+	</ol>
+		
 	</div>
 
 	<div class="option-box">
 		<ul class="options">
-			<li class="option1"><span>Option 1</span></li>
-			<li class="option2"><span>Option 2</span></li>
-			<li class="option3"><span>Option 3</span></li>
+			<li class="option1" id="o-1a"><span>How's studying going?</span></li>
+			<li class="option2" id="o-1b"><span>How's co-op going?</span></li>
+
+			<li class="option1" id="o-1a"><span>How's studying going?</span></li>
+			<li class="option2" id="o-1b"><span>How's co-op going?</span></li>
+
+
 		</ul>
 	</div>
 </div>
