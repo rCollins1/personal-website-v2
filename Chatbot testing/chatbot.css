@@ -1,4 +1,63 @@
 h1 {
-	font-family: helvetica;
+	font-family: courier;
+	font-weight: bold;
+}
+
+p {
+	font-family: courier;
+	font-weight: bold;
+}
+
+.chatbox {
+	background-color: #e5e5e5;
+	width: 50%;
+	height: 200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.container {
+	border-radius: 5px;
+}
+
+.bot-message {
+	background-color: pink;
+	margin: 0 80px 0 10px;
+}
+
+.user-message {
+	background-color: red;
+	margin: 0 10px 0 80px;
+}
+
+.container p {
+	padding: 10px;
+}
+
+.option-box {
+	width: 100%;
+	background-color: blue;
+}
+
+.option1 {
+	width: 20%;
+	display: inline-block;
+	background-color: yellow;
+}
+
+.option2 {
+	width: 20%;
+	display: inline-block;
+	background-color: orange;
+}
+
+.option3 {
+	width: 20%;
+	display: inline-block;
+	background-color: red;
+}
+
+span {
+	font-family: courier;
 	font-weight: bold;
 }
