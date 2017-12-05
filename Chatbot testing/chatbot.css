@@ -8,11 +8,19 @@ p {
 	font-weight: bold;
 }
 
+.main-chat {
+	width: 60%;
+	max-width: 900px;
+	min-width: 300px;
+	margin: 0 auto;
+	background-color: pink;
+	padding: 20px;
+}
+
 .chatbox {
 	background-color: #e5e5e5;
-	width: 50%;
-	height: 200px;
-	margin: 0 auto;
+	width: 90%;
+	margin: auto;
 	padding: 10px;
 }
 
@@ -35,26 +43,21 @@ p {
 }
 
 .option-box {
-	width: 100%;
+	width: 90%;
 	background-color: blue;
+	margin: auto;
+	padding: 0 10px;
 }
 
-.option1 {
+.options li {
 	width: 20%;
 	display: inline-block;
 	background-color: yellow;
+	border-radius: 5px;
 }
 
-.option2 {
-	width: 20%;
-	display: inline-block;
-	background-color: orange;
-}
-
-.option3 {
-	width: 20%;
-	display: inline-block;
-	background-color: red;
+.options li span{
+	padding: 10px;
 }
 
 span {
