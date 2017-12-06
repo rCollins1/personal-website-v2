@@ -72,3 +72,7 @@ ol {
 .message-li {
 	overflow: hidden;
 }
+
+.hide {
+	display: none !important;
+}
