@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 	var o1, o2, o3, o4, o5, o6 = "";
 	var study, coop = 0;
+	var td, agf = 0;
 
 	$("#o-1a").click(function(){
 		o1 = "a"; console.log(o1);
@@ -18,6 +19,14 @@ $(document).ready(function(){
  	$("#o-1b").click(function(){
  		o1 = "b"; console.log(o1);
  		coop = 1; console.log("coop: " + coop);
+ 		$("#u-1b, #b-3a, #b-3b").removeClass("hide");
+		$("##o-2a, #o-2b, #o-2c").addClass("hide");
+		if (td != 1) {
+			$("#o-3a").removeClass("hide");
+		}
+		if (agf != 1) {
+			$("#o-3b").removeClass("hide");
+		}
  	});
 
  	$("#o-2a").click(function(){
@@ -26,6 +35,10 @@ $(document).ready(function(){
 
  	$("#o-2b").click(function(){
  		o2 = "b"; console.log(o2);
+ 	});
+
+  	$("#o-2c").click(function(){
+ 		o2 = "c"; console.log(o2);
  	});
 
  	$("#o-3a").click(function(){
