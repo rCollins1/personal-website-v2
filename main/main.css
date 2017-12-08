@@ -1,0 +1,53 @@
+h1 {
+	font-family: Work Sans, sans-serif;
+	font-size: 2em;
+	line-height: 0;
+}
+
+body {
+	background-color: #fdfdfd;
+}
+
+.header {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#top {
+	margin: 100px 0 15px 0;
+}
+
+#path0_stroke {
+	fill: #d02259;
+}
+
+.rainbow {
+	animation: backgroundRainbow 3s infinite;
+	-webkit-animation: backgroundRainbow 3s infinite;
+}
+
+.header {
+	cursor: pointer;
+}
+
+.header p {
+	font-family: Work Sans, sans-serif;
+	font-size: 1em;
+}
+
+@keyframes backgroundRainbow {
+  0%   {background: #ffe7e7;}
+  25%  {background: #feffe7;}
+  50%  {background: #e7f6ff;}
+  75%  {background: #e7ffe7;}
+  100% {background: #ffe7e7;}
+}
+
+@-webkit-keyframes backgroundRainbow {
+  0%   {background: #ffe7e7;}
+  25%  {background: #feffe7;}
+  50%  {background: #e7f6ff;}
+  75%  {background: #e7ffe7;}
+  100% {background: #ffe7e7;}
+}

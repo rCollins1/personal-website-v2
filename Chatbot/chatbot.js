@@ -161,6 +161,17 @@ $(document).ready(function(){
 		$("#messages").append("<li class='message-li'><div class='bot-message container'>Okay :) In that case, keep scrolling...</div></li>");
  	});
 
+
+
+/*rainbow background effect*/
+    $(".header").hover(function () {
+        $("body").addClass("rainbow");
+    });
+    $(".header").mouseleave(function () {
+        $("body").removeClass("rainbow");
+    });
+
+
 });
 
 function removeOptions(){
