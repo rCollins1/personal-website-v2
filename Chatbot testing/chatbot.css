@@ -1,6 +1,6 @@
 h1 {
-	font-family: courier;
-	font-weight: bold;
+	font-family: Work Sans, sans-serif;
+	font-weight:;
 }
 
 .main-chat {
@@ -27,9 +27,8 @@ h1 {
 }
 
 .message-li div {
-	font-family: courier;
-	font-size: 12px;
-	font-weight: bold;
+	font-family: work sans, sans-serif;
+	font-size: 0.8em;
 	padding: 10px;
 }
 
@@ -59,9 +58,8 @@ h1 {
 }
 
 span {
-	font-family: courier;
-	font-size: 12px;
-	font-weight: bold;
+	font-family: work sans, sans-serif;
+	font-size: 0.8em;
 }
 
 ol {
