@@ -92,7 +92,7 @@ $(document).ready(function(){
  		agf = 1;
  		removeOptions();
 		$("#messages").append("<li class='message-li'><div class='user-message container'>What was AGF all about?</div></li>");
-		$("#messages").append("<li class='message-li'><div class='bot-message container'>At <a href='https://www.agf.com/ca/en/index.jsp'>AGF</a>, I was a Junior Front End Web Developer, where I developed new tools and components to be used in multiple AGF sites throughout Canada and the US.</div></li>");
+		$("#messages").append("<li class='message-li'><div class='bot-message container'>At <a href='https://www.agf.com/ca/en/index.jsp' target='_blank'>AGF</a>, I was a Junior Front End Web Developer, where I developed new tools and components to be used in multiple AGF sites throughout Canada and the US.</div></li>");
 		$("#messages").append("<li class='message-li'><div class='bot-message container'>I was lucky to be a part of a major brand redesign! I also learned a lot about the complex workings of content management systems.</div></li>");
 		if (td != 1){
 			$("#options").append("<li class='option' id='o-4c'><span>How about TD?</span></li>");
@@ -107,7 +107,7 @@ $(document).ready(function(){
  		agf = 1;
  		removeOptions();
 		$("#messages").append("<li class='message-li'><div class='user-message container'>How about AGF?</div></li>");
-		$("#messages").append("<li class='message-li'><div class='bot-message container'>At <a href='https://www.agf.com/ca/en/index.jsp'>AGF</a>, I was a Junior Front End Web Developer, where I developed new tools and components to be used in multiple AGF sites throughout Canada and the US.</div></li>");
+		$("#messages").append("<li class='message-li'><div class='bot-message container'>At <a href='https://www.agf.com/ca/en/index.jsp' target='_blank'>AGF</a>, I was a Junior Front End Web Developer, where I developed new tools and components to be used in multiple AGF sites throughout Canada and the US.</div></li>");
 		$("#messages").append("<li class='message-li'><div class='bot-message container'>I was lucky to be a part of a major brand redesign! I also learned a lot about the complex workings of content management systems.</div></li>");
 		if (td != 1){
 			$("#options").append("<li class='option' id='o-4c'><span>How about TD?</span></li>");
