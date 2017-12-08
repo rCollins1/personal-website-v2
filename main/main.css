@@ -36,6 +36,17 @@ body {
 	font-size: 1em;
 }
 
+#keep-scrolling {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	bottom: 10px;
+	color: black;
+	font-family: Work Sans, sans-serif;
+	font-size: 1em;
+}
+
 @keyframes backgroundRainbow {
   0%   {background: #ffe7e7;}
   25%  {background: #feffe7;}
