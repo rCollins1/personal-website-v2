@@ -1,14 +1,15 @@
 h1 {
 	font-family: Work Sans, sans-serif;
 	font-size: 2em;
-	line-height: 0;
+	overflow: visible;
+	margin: -6px;
 }
 
 
 h2 {
 	font-family: Work Sans, sans-serif;
     font-size: 1.8em;
-    line-height: 0;
+    overflow: visible;
 }
 
 body {
@@ -79,3 +80,5 @@ body {
     padding: 20px;
     overflow: hidden;
 }
+
+/*Consider masking logo and showing gradient through it*/
