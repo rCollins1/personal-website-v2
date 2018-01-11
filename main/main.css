@@ -4,6 +4,13 @@ h1 {
 	line-height: 0;
 }
 
+
+h2 {
+	font-family: Work Sans, sans-serif;
+    font-size: 1.8em;
+    line-height: 0;
+}
+
 body {
 	background-color: #fdfdfd;
 }
@@ -15,7 +22,7 @@ body {
 }
 
 #top {
-	margin: 100px 0 15px 0;
+	margin: 50px 0 15px 0;
 }
 
 #path0_stroke {
@@ -61,4 +68,14 @@ body {
   50%  {background: #e7f6ff;}
   75%  {background: #e7ffe7;}
   100% {background: #ffe7e7;}
+}
+
+.test-section {
+    width: 60%;
+    max-width: 900px;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    overflow: hidden;
 }
