@@ -176,12 +176,34 @@ $(document).ready(function(){
 /*project tilt on hover*/
 $(".project-thumbnail").hover(
   function () {
-    $(this).addClass('test');
+    $(this).addClass('tilt-main');
+    $(this).find(".project-title").addClass('tilt-title');
   },
   function () {
-    $(this).removeClass('test');
+    $(this).removeClass('tilt-main');
+    $(this).find(".project-title").removeClass('tilt-title');
   },
 );
+
+$(".project-thumbnail").click(
+  function () {
+    alert(this);
+  },
+);
+
+/*
+Project Modals
+
+$('.button').click(function(){
+  var buttonId = $(this).attr('id');
+  $('#modal-container').removeAttr('class').addClass(buttonId);
+  $('body').addClass('modal-active');
+})
+
+$('#modal-container').click(function(){
+  $(this).addClass('out');
+  $('body').removeClass('modal-active');
+});*/
 
 
 
