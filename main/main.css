@@ -95,4 +95,33 @@ body {
 	color: red;
 }
 
+#project-thumbnails {
+	width: 100%
+}
+
+.project-thumbnail {
+	margin: 10px;
+	width: 30%;
+	height: 200px;
+	display: block;
+	float: left;
+}
+
+.project-title {
+	font-family: Work Sans, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.project-description {
+	font-family: Work Sans, sans-serif;
+    font-size: 0.8em;
+}
+
+.project-main {
+	border-bottom: 4px solid black;
+}
+
+
 /*Consider masking logo and showing gradient through it*/

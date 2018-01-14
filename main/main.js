@@ -172,11 +172,24 @@ $(document).ready(function(){
     });
 
 
+
+/*project tilt on hover*/
+$(".project-thumbnail").hover(
+  function () {
+    $(this).addClass('test');
+  },
+  function () {
+    $(this).removeClass('test');
+  },
+);
+
+
+
+
 });
 
 function removeOptions(){
 	$("#o-1a, #o-1b, #o-2a, #o-2b, #o-2c, #o-3a, #o-3b, #o-4a, #o-4b, #o-4c, #o-5a, #o-5b").remove();
 }
-
 
 /* Add gif to end of message convo? (like messenger stickers) */
