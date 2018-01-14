@@ -12,6 +12,12 @@ h2 {
     overflow: visible;
 }
 
+.section-p {
+    font-family: Work Sans, sans-serif;
+    font-size: 0.9em;
+    overflow: visible;
+}
+
 body {
 	background-color: #fdfdfd;
 }
@@ -71,7 +77,7 @@ body {
   100% {background: #ffe7e7;}
 }
 
-.test-section {
+.section {
     width: 60%;
     max-width: 900px;
     min-width: 300px;
@@ -79,6 +85,14 @@ body {
     margin-top: 100px;
     padding: 20px;
     overflow: hidden;
+}
+
+#line1 {
+	border:1px solid #d3d3d3;
+	position: absolute;
+	top: 20px;
+	z-index: -1;
+	color: red;
 }
 
 /*Consider masking logo and showing gradient through it*/

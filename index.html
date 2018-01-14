@@ -38,23 +38,33 @@
 	</div>
 </section>
 
-<div class="test-section">
+<div class="section" id="section-about">
 	<hr>
-	<h2>Blah this is a section blah blah blah...</h2>
-	<p>This is more in the section hello hi bonjour welcome!</p>
+	<h2>Nice to meet you!</h2>
+	<p class="section-p">Hi, I'm Rachelyn. I'm a second year co-op student at the University of Waterloo.</p>
 </div>
 
-<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3; position: absolute; top: 20px;">
-Your browser does not support the HTML5 canvas tag.</canvas>
+<div class="section" id="section-projects">
+	<hr>
+	<h2>What I've been up to...</h2>
+	<p class="section-p">Here are some projects I've been working on in my spare time</p>
+</div>
+
+
+
+
+
+<canvas id="line1" width="300" height="150"></canvas>
 
 <script>
-
-var c = document.getElementById("myCanvas");
+var c = document.getElementById("line1");
 var ctx = c.getContext("2d");
+ctx.fillStyle = "red";
 ctx.rotate(20 * Math.PI / 180);
-ctx.fillRect(50, 20, 100, 50);
-
-</script> 
+ctx.fillRect(0, 2, 1000 + window.scrollY, 10);
+var a = window.scrollY;
+console.log(a);
+</script>
 
 </body>
 </html>
