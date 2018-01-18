@@ -145,6 +145,14 @@ body {
     font-size: 0.8em;
 }
 
+.project-details {
+  display: none;
+}
+
+.show-project {
+  display: block;
+}
+
 .project-main {
 	border-bottom: 4px solid black;
 }

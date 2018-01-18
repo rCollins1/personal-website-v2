@@ -185,9 +185,31 @@ $(".project-thumbnail").hover(
   },
 );
 
-$(".project-thumbnail").click(
+$("#project-1").click(
   function () {
-    alert(this);
+  	closeProjects();
+    $("#project-details-1").addClass("show-project");
+  },
+);
+
+$("#project-2").click(
+  function () {
+  	closeProjects();
+    $("#project-details-2").addClass("show-project");
+  },
+);
+
+$("#project-3").click(
+  function () {
+  	closeProjects();
+    $("#project-details-3").addClass("show-project");
+  },
+);
+
+$("#project-4").click(
+  function () {
+  	closeProjects();
+    $("#project-details-4").addClass("show-project");
   },
 );
 
@@ -207,11 +229,14 @@ $('#modal-container').click(function(){
 
 
 
-
 });
 
 function removeOptions(){
 	$("#o-1a, #o-1b, #o-2a, #o-2b, #o-2c, #o-3a, #o-3b, #o-4a, #o-4b, #o-4c, #o-5a, #o-5b").remove();
+}
+
+function closeProjects(){
+	$("#project-details-1, #project-details-2, #project-details-3, #project-details-4").removeClass("show-project");
 }
 
 /* Add gif to end of message convo? (like messenger stickers) */
