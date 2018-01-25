@@ -45,7 +45,7 @@
 	<p class="section-p">Hi, I'm Rachelyn. I'm a second year co-op student at the University of Waterloo.</p>
 	<div>
 		<h2>SKILLS</h2>
-		<p>
+		<p class="section-p">
 		<span class="skills-category">Design: </span>Sketch, Figma, Autodesk Inventor, SolidWorks CAD, Photoshop
 		<br>
 		<span class="skills-category">Technology: </span>HTML, JS, CSS, Velocity XPath, C++, Java, Github, Eclipse IDE, Arduino, Cascade CMS, Python
@@ -58,31 +58,31 @@
 		<h2>EXPERIENCE</h2>
 		<span class="position">JUNIOR WEB DEVELOPER – AGF MANAGEMENT LTD.</span>
 		<ul>
-			<li>Designed, developed and presented an investment quiz generator, involving an interface for an XML to JSON translator, to be used by other teams with no coding knowledge</li>
-			<li>Automated parsing of XML content into Excel spreadsheet (cut a 4 hour process down to 15 minutes)</li>
-			<li>Creating elements to be used throughout 3 AGF sites using Cascade’s CMS</li>
-			<li>Communicated directly with marketing and studio for website specifications and redesign changes</li>
+			<li class="section-p">Designed, developed and presented an investment quiz generator, involving an interface for an XML to JSON translator, to be used by other teams with no coding knowledge</li>
+			<li class="section-p">Automated parsing of XML content into Excel spreadsheet (cut a 4 hour process down to 15 minutes)</li>
+			<li class="section-p">Creating elements to be used throughout 3 AGF sites using Cascade’s CMS</li>
+			<li class="section-p">Communicated directly with marketing and studio for website specifications and redesign changes</li>
 		</ul>
 		<span class="position">UX/UI DESIGNER – TD LABS</span>
 		<ul>
-			<li>Developed the user interface of a new financial literacy app from single function to feature complete as part of an Agile team</li>
-			<li>Conducted extensive user testing using master-apprentice interview and guerilla testing techniques</li>
-			<li>Proposed UX design decisions and presented analysis of user testing results to top board-level executives from TD Canada Trust at the Communitech Innovation Hub</li>
+			<li class="section-p">Developed the user interface of a new financial literacy app from single function to feature complete as part of an Agile team</li>
+			<li class="section-p">Conducted extensive user testing using master-apprentice interview and guerilla testing techniques</li>
+			<li class="section-p">Proposed UX design decisions and presented analysis of user testing results to top board-level executives from TD Canada Trust at the Communitech Innovation Hub</li>
 		</ul>
 		<span class="position">QA ANALYST – SUVIEN</span>
 		<ul>
-			<li>Tested Suvien’s mobile app and website which aided in memory retention for persons with dementia</li>
-			<li>Analyzed and improved upon the organization’s promotional content using critical design skills</li>
+			<li class="section-p">Tested Suvien’s mobile app and website which aided in memory retention for persons with dementia</li>
+			<li class="section-p">Analyzed and improved upon the organization’s promotional content using critical design skills</li>
 		</ul>
 		<span class="position">INTERNATIONAL CONSULTING COMPETITIONS – DECA</span>
 		<ul>
-			<li>Represented Canada in international competitions after placing as one of Ontario’s top 5 competitors</li>
-			<li>Taught business and finance workshops based on a self-curated curriculum to inexperienced members</li>
+			<li class="section-p">Represented Canada in international competitions after placing as one of Ontario’s top 5 competitors</li>
+			<li class="section-p">Taught business and finance workshops based on a self-curated curriculum to inexperienced members</li>
 		</ul>
 		<span class="position">PRESIDENT – VISUAL ARTS COUNCIL</span>
 		<ul>
-			<li>Led a team of 6 executives and 30 members to create large-scale art projects</li>
-			<li>Coordinated events with administration though well-documented proposals and reports</li>
+			<li class="section-p">Led a team of 6 executives and 30 members to create large-scale art projects</li>
+			<li class="section-p">Coordinated events with administration though well-documented proposals and reports</li>
 		</ul>
 	</div>
 
@@ -92,7 +92,7 @@
 
 	<hr>
 	<h2>What I've been up to...</h2>
-	<p class="section-p">Here are some projects I've been working on in my spare time</p>
+	<p class="section-p">Here are some projects I've been working on in my spare time!</p>
 
 	<div id="projects-thumbnails">
 		<div id="project-1" onclick="document.getElementById('id01').style.display='block'" class="project-thumbnail">
@@ -212,6 +212,16 @@
       </header>
       <div class="w3-container">
         <p>My team and I were provided with an investment quiz created in Java with no documentation and were tasked with recreating it using modern frontend technologies.</p>
+        <p>I took the original flash quiz (left), played around with some wireframes (centre) and a couple iterations of design mockups (right) and presented my designs to the rest of the team.</p>
+        <div>
+        	<img  class="slides" src="main/assets/slide1.png">
+        	<img class="slides" src="main/assets/slide2.png">
+        	<img class="slides" src="main/assets/slide3.png">
+        </div>
+        <p>The coolest part of the project was how we decided to make the quiz run mainly through a sigular JSON file, containing questions, answers, point values of each question and all of the stock information given by the company.</p>
+        <p>This allowed me to go in later using the Cascade CMS and create a template for users from other departments without any coding knowledge (think marketing or studio) to get into the quiz and change data on a regular basis.</p>
+        <img class="project-img" src="main/assets/cmstoquiz.png">
+        <p>Since the data definition in Cascade exported an unorganized XML file, I used XPath tool extensively to generate and format a JSON file from the inputted content. Taking into account content types and exception cases, I was able to dynamically create a JSON file to work with the quiz template.</p>
       </div>
       <footer class="w3-container w3-black projects-footer">
         <p></p>

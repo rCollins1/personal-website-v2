@@ -194,7 +194,7 @@ a:hover {
 .skills-category {
     font-family: Work Sans, sans-serif;
     font-size: 1.2em;
-    color: purple;
+    color: #ffa7ff;
     overflow: visible;
     font-weight: bold;
 }
@@ -214,10 +214,20 @@ a:hover {
   width: 100%;
 }
 
-.project-img-header {
-  width: 50%;
+.slides {
+  display: block;
+  width: 32%;
+  margin: 4px;
+  float: left;
 }
 
+.position {
+  font-family: Work Sans, sans-serif;
+  font-size: 1.2em;
+  color: #ff5292;
+  overflow: visible;
+  font-weight: bold;
+}
 
 
 /*Consider masking logo and showing gradient through it*/
