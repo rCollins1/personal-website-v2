@@ -189,6 +189,15 @@ a:hover {
   color: pink;
 }
 
+/*About section*/
+
+.skills-category {
+    font-family: Work Sans, sans-serif;
+    font-size: 1.2em;
+    color: purple;
+    overflow: visible;
+    font-weight: bold;
+}
 
 
 /*Project Modals*/
@@ -203,6 +212,10 @@ a:hover {
 
 .project-img {
   width: 100%;
+}
+
+.project-img-header {
+  width: 50%;
 }
 
 
