@@ -151,7 +151,7 @@ $(document).ready(function(){
  	$(document).on('click', '#o-5a', function(){ /*Let's chat*/
  		removeOptions();
 		$("#messages").append("<li class='message-li'><div class='user-message container'>Let's chat!</div></li>");
-		$("#messages").append("<li class='message-li'><div class='bot-message container'>Cool! I'd love to hear from you or meet up for a coffee sometime!</div></li>");
+		$("#messages").append("<li class='message-li'><div class='bot-message container'>Cool! I'd love to hear from you or meet up for a coffee sometime! <a href='https://www.linkedin.com/in/rachelyncollins/'>Linkedin</a> is probably the best place to reach me.</div></li>");
 		/*ADD INPUT FOR CONTACT INFO HERE*/
  	});
 
@@ -185,47 +185,7 @@ $(".project-thumbnail").hover(
   },
 );
 
-$("#project-1").click(
-  function () {
-  	closeProjects();
-    $("#project-details-1").addClass("show-project");
-  },
-);
 
-$("#project-2").click(
-  function () {
-  	closeProjects();
-    $("#project-details-2").addClass("show-project");
-  },
-);
-
-$("#project-3").click(
-  function () {
-  	closeProjects();
-    $("#project-details-3").addClass("show-project");
-  },
-);
-
-$("#project-4").click(
-  function () {
-  	closeProjects();
-    $("#project-details-4").addClass("show-project");
-  },
-);
-
-/*
-Project Modals
-
-$('.button').click(function(){
-  var buttonId = $(this).attr('id');
-  $('#modal-container').removeAttr('class').addClass(buttonId);
-  $('body').addClass('modal-active');
-})
-
-$('#modal-container').click(function(){
-  $(this).addClass('out');
-  $('body').removeClass('modal-active');
-});*/
 
 
 
